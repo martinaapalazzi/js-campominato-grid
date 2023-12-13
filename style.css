@@ -6,13 +6,28 @@
 }
 
 .container {
-    width: 200px;
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.start {
+#start {
     padding: 10px;
+}
+
+.numbers-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell-style {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    line-height: 2em;
+    text-align: center;
+    background-color: lightcoral;
+}
+
+.button-start-display {
+    display: none;
 }
