@@ -21,13 +21,20 @@
 }
 
 .cell-style {
-    width: calc(100% / 10);
-    height: calc(100% / 10);
+    width: calc((100% / 10) - 10px);
+    height: calc((100% / 10) - 10px);
     line-height: 2em;
     text-align: center;
     background-color: lightcoral;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 18px; 
 }
 
 .button-start-display {
     display: none;
+}
+
+.cella-color {
+    background-color: rgb(150, 206, 255);
 }
