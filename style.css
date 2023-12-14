@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+    margin: 20px 0px 50px  ;
+}
+
 .container {
     display: flex;
     justify-content: center;

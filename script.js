@@ -32,8 +32,9 @@ buttonStart.addEventListener ("click", function (){
 
         cella.addEventListener ("click", function (){
             cella.classList.toggle('cella-color');
-            console.log(cella[i]);
         })
+
+        console.log(cella[i]);
     }
 
 })
